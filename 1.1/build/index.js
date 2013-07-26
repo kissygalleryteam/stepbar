@@ -30,7 +30,7 @@ KISSY.add('gallery/stepbar/1.1/index',function (S,Node, Base) {
         RENDER : 'render'
     };
     Stepbar.color = {ORANGE:'orange',BLUE:'blue',GREEN:'green',RED:'red',PINK:'pink',GRAY:'gray'};
-    Stepbar.cls = {STEPS : "ks-steps",ITEM : "ks-steps-item",CURRENT : "current",DONE : "done",FIRST:'first',LAST:'last'};
+    Stepbar.cls = {STEPS : "step-bar",ITEM : "step-bar-item",CURRENT : "current",DONE : "done",FIRST:'first',LAST:'last'};
     Stepbar.ZINDEX = 500;
     Stepbar.ARROW_TPL = '<div class="trigon">'+
         '<span class="bor"></span>' +
@@ -55,7 +55,8 @@ KISSY.add('gallery/stepbar/1.1/index',function (S,Node, Base) {
             self._setItemStyle();
             self._setWidth();
             self._setColor();
-            self._setAct();
+            var act = Number($target.attr('data-act'));
+            self._setAct(act);
             self._addTrigon();
             self.fire('render',{'$steps':$steps});
 

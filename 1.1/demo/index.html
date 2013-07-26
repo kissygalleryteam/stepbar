@@ -15,7 +15,7 @@
 <h2>stepbar的demo</h2>
 
 <h4>示例1：基础示例</h4>
-<ol id="steps-demo-1">
+<ol id="steps-demo-1" data-act="2">
     <li>1. 加入购物车</li>
     <li>2. 确认订单信息</li>
     <li>3. 付款到支付宝</li>
@@ -65,8 +65,6 @@
         //示例1
         var step1 = new Stepbar('#steps-demo-1');
         step1.render();
-        //激活第二个步骤
-        step1.set('act',2);
 
         //示例2
         var step2 = new Stepbar('#steps-demo-2',{'act':2,'color':'blue'});

@@ -1,0 +1,14 @@
+{
+    "name": "stepbar",
+    "version": "1.1",
+    "desc": "",
+    "cover": "",
+    "tag":"",
+    "author": {
+        "name": "明河",
+        "email": "minghe36@126.com",
+        "page": ""
+    },
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}

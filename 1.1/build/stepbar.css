@@ -1,0 +1,222 @@
+/* ======流程步骤条样式 START======== */
+.ks-steps {
+    overflow: hidden;
+    letter-spacing: -0.31em;
+    *letter-spacing: normal;
+    word-spacing: -0.43em;
+}
+
+.ks-steps li.ks-steps-item {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; /* IE < 8: fake inline-block */
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    height: 24px;
+    line-height: 24px;
+    color: #404040;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #E4E4E4;
+    margin: 0px !important;
+    position: relative;
+    z-index: 100;
+}
+
+/*-----步骤条子项宽度-----*/
+.ks-steps.num3 li {
+    width: 33.3%;
+}
+
+.ks-steps.num4 li {
+    width: 237px;
+}
+
+.ks-steps.num5 li {
+    width: 20%;
+}
+
+.ks-steps.num6 li {
+    width: 158px;
+}
+
+/*-----颜色-----*/
+/*橘色*/
+.ks-steps.orange li.done {
+    background-color: #FFE6BA;
+    color: #FF6600 !important;
+}
+
+.ks-steps.orange li.current {
+    background-color: #FF6600;
+}
+
+.ks-steps.orange .done .blo {
+    border-left-color: #FFE6BA !important;
+}
+
+.ks-steps.orange .current .blo {
+    border-left-color: #FF6600 !important;
+}
+
+/*蓝色*/
+.ks-steps.blue li.done {
+    background-color: #CAE6F1;
+    color: #3784BC !important;
+}
+
+.ks-steps.blue li.current {
+    background-color: #3784BC;
+}
+
+.ks-steps.blue .done .blo {
+    border-left-color: #CAE6F1 !important;
+}
+
+.ks-steps.blue .current .blo {
+    border-left-color: #3784BC !important;
+}
+
+/*绿色*/
+.ks-steps.green li.done {
+    background-color: #d0ed76;
+    color: #7f9f1b !important;
+}
+
+.ks-steps.green li.current {
+    background-color: #7f9f1b;
+}
+
+.ks-steps.green .done .blo {
+    border-left-color: #d0ed76 !important;
+}
+
+.ks-steps.green .current .blo {
+    border-left-color: #7f9f1b !important;
+}
+
+/*红色*/
+.ks-steps.red li.done {
+    background-color: #f5abab;
+    color: #a32626 !important;
+}
+
+.ks-steps.red li.current {
+    background-color: #a32626;
+}
+
+.ks-steps.red .done .blo {
+    border-left-color: #f5abab !important;
+}
+
+.ks-steps.red .current .blo {
+    border-left-color: #a32626 !important;
+}
+
+/*粉红色*/
+.ks-steps.pink li.done {
+    background-color: #f1afd6;
+    color: #9c1866 !important;
+}
+
+.ks-steps.pink li.current {
+    background-color: #9c1866;
+}
+
+.ks-steps.pink .done .blo {
+    border-left-color: #f1afd6 !important;
+}
+
+.ks-steps.pink .current .blo {
+    border-left-color: #9c1866 !important;
+}
+
+/*灰色*/
+.ks-steps.gray li.done {
+    background-color: #c4c4c4;
+    color: #606060 !important;
+}
+
+.ks-steps.gray li.current {
+    background-color: #606060;
+}
+
+.ks-steps.gray .done .blo {
+    border-left-color: #c4c4c4 !important;
+}
+
+.ks-steps.gray .current .blo {
+    border-left-color: #606060 !important;
+}
+
+/*第一项圆角*/
+.ks-steps li.first {
+    border-top-left-radius: 3px 3px;
+    border-bottom-left-radius: 3px 3px;
+    -moz-border-radius-topleft: 3px 3px;
+    -moz-border-radius-bottomleft: 3px 3px;
+}
+
+/*最后一项圆角*/
+.ks-steps li.last {
+    border-top-right-radius: 3px 3px;
+    border-bottom-right-radius: 3px 3px;
+    -moz-border-radius-topright: 3px 3px;
+    -moz-border-radius-bottomright: 3px 3px;
+}
+
+.ks-steps li.current {
+    font-weight: normal;
+    color: #FFFFFF !important;
+}
+
+.ks-steps li.current .first {
+    background-color: #FF6600;
+}
+
+/*-----箭头样式-----*/
+.ks-steps li .trigon {
+    position: absolute;
+    top: 0px;
+    right: -14px;
+    z-index: 200;
+    width: 14px;
+    height: 24px;
+    overflow: hidden;
+    padding: 0px;
+    background-color: transparent;
+    z-index: 200;
+}
+
+.ks-steps li .trigon span {
+    width: 0px;
+    height: 0px;
+    line-height: 0px !important;
+    padding: 0px;
+}
+
+.ks-steps li .trigon .blo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border: 12px solid;
+    border-color: transparent transparent transparent #E4E4E4;
+    border-style: dashed dashed dashed solid;
+}
+
+.ks-steps li .trigon .bor {
+    position: absolute;
+    left: 0px;
+    top: -2px;
+    border: 14px solid;
+    border-color: transparent transparent transparent #FFF;
+    border-style: dashed dashed dashed solid;
+}
+
+/* ======流程步骤条样式 END======== */
+
+
+
+

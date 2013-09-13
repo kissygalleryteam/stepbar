@@ -1,9 +1,7 @@
 /* ======流程步骤条样式 START======== */
 .step-bar {
     overflow: hidden;
-    letter-spacing: -0.31em;
-    *letter-spacing: normal;
-    word-spacing: -0.43em;
+    font-size: 0;
 }
 
 .step-bar li.step-bar-item {

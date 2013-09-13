@@ -110,9 +110,15 @@ KISSY.add(function (S,Node, Base) {
             if(width == EMPTY){
                 if(itemLen == 0) return false;
                 var containerWidth = $target.width();
-                width = Number(containerWidth / itemLen);
+                var ret = containerWidth % itemLen;
+                width = Number( (containerWidth - ret) / itemLen);
             }
             $steps.width(width);
+
+            if (ret) {
+              $steps.item(itemLen - 1).width(width + ret);
+            }
+
             return width;
         },
         /**
@@ -215,6 +221,3 @@ KISSY.add(function (S,Node, Base) {
     }});
     return Stepbar;
 }, {requires: ['node', 'base']});
-
-
-

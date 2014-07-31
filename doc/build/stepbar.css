@@ -1,0 +1,220 @@
+/* ======流程步骤条样式 START======== */
+.step-bar {
+    overflow: hidden;
+    font-size: 0;
+}
+
+.step-bar li.step-bar-item {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; /* IE < 8: fake inline-block */
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    height: 24px;
+    line-height: 24px;
+    color: #404040;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #E4E4E4;
+    margin: 0px !important;
+    position: relative;
+    z-index: 100;
+}
+
+/*-----步骤条子项宽度-----*/
+.step-bar.num3 li {
+    width: 33.3%;
+}
+
+.step-bar.num4 li {
+    width: 237px;
+}
+
+.step-bar.num5 li {
+    width: 20%;
+}
+
+.step-bar.num6 li {
+    width: 158px;
+}
+
+/*-----颜色-----*/
+/*橘色*/
+.step-bar.orange li.done {
+    background-color: #FFE6BA;
+    color: #FF6600 !important;
+}
+
+.step-bar.orange li.current {
+    background-color: #FF6600;
+}
+
+.step-bar.orange .done .blo {
+    border-left-color: #FFE6BA !important;
+}
+
+.step-bar.orange .current .blo {
+    border-left-color: #FF6600 !important;
+}
+
+/*蓝色*/
+.step-bar.blue li.done {
+    background-color: #CAE6F1;
+    color: #3784BC !important;
+}
+
+.step-bar.blue li.current {
+    background-color: #3784BC;
+}
+
+.step-bar.blue .done .blo {
+    border-left-color: #CAE6F1 !important;
+}
+
+.step-bar.blue .current .blo {
+    border-left-color: #3784BC !important;
+}
+
+/*绿色*/
+.step-bar.green li.done {
+    background-color: #d0ed76;
+    color: #7f9f1b !important;
+}
+
+.step-bar.green li.current {
+    background-color: #7f9f1b;
+}
+
+.step-bar.green .done .blo {
+    border-left-color: #d0ed76 !important;
+}
+
+.step-bar.green .current .blo {
+    border-left-color: #7f9f1b !important;
+}
+
+/*红色*/
+.step-bar.red li.done {
+    background-color: #f5abab;
+    color: #a32626 !important;
+}
+
+.step-bar.red li.current {
+    background-color: #a32626;
+}
+
+.step-bar.red .done .blo {
+    border-left-color: #f5abab !important;
+}
+
+.step-bar.red .current .blo {
+    border-left-color: #a32626 !important;
+}
+
+/*粉红色*/
+.step-bar.pink li.done {
+    background-color: #f1afd6;
+    color: #9c1866 !important;
+}
+
+.step-bar.pink li.current {
+    background-color: #9c1866;
+}
+
+.step-bar.pink .done .blo {
+    border-left-color: #f1afd6 !important;
+}
+
+.step-bar.pink .current .blo {
+    border-left-color: #9c1866 !important;
+}
+
+/*灰色*/
+.step-bar.gray li.done {
+    background-color: #c4c4c4;
+    color: #606060 !important;
+}
+
+.step-bar.gray li.current {
+    background-color: #606060;
+}
+
+.step-bar.gray .done .blo {
+    border-left-color: #c4c4c4 !important;
+}
+
+.step-bar.gray .current .blo {
+    border-left-color: #606060 !important;
+}
+
+/*第一项圆角*/
+.step-bar li.first {
+    border-top-left-radius: 3px 3px;
+    border-bottom-left-radius: 3px 3px;
+    -moz-border-radius-topleft: 3px 3px;
+    -moz-border-radius-bottomleft: 3px 3px;
+}
+
+/*最后一项圆角*/
+.step-bar li.last {
+    border-top-right-radius: 3px 3px;
+    border-bottom-right-radius: 3px 3px;
+    -moz-border-radius-topright: 3px 3px;
+    -moz-border-radius-bottomright: 3px 3px;
+}
+
+.step-bar li.current {
+    font-weight: normal;
+    color: #FFFFFF !important;
+}
+
+.step-bar li.current .first {
+    background-color: #FF6600;
+}
+
+/*-----箭头样式-----*/
+.step-bar li .trigon {
+    position: absolute;
+    top: 0px;
+    right: -14px;
+    z-index: 200;
+    width: 14px;
+    height: 24px;
+    overflow: hidden;
+    padding: 0px;
+    background-color: transparent;
+    z-index: 200;
+}
+
+.step-bar li .trigon span {
+    width: 0px;
+    height: 0px;
+    line-height: 0px !important;
+    padding: 0px;
+}
+
+.step-bar li .trigon .blo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border: 12px solid;
+    border-color: transparent transparent transparent #E4E4E4;
+    border-style: dashed dashed dashed solid;
+}
+
+.step-bar li .trigon .bor {
+    position: absolute;
+    left: 0px;
+    top: -2px;
+    border: 14px solid;
+    border-color: transparent transparent transparent #FFF;
+    border-style: dashed dashed dashed solid;
+}
+
+/* ======流程步骤条样式 END======== */
+
+
+
+

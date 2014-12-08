@@ -2,8 +2,6 @@
 
 stepbar是步骤条组件，支持多种颜色，无图片实现。
 
-作者：明河
-
 ## 快速使用
 
 ### HTML
@@ -18,7 +16,7 @@ stepbar是步骤条组件，支持多种颜色，无图片实现。
 
 ### 初始化组件
 
-    S.use('kg/stepbar/2.0.0/index', function (S, Stepbar) {
+    S.use('kg/stepbar/2.1.0/index', function (S, Stepbar) {
         var step1 = new Stepbar('#steps-demo-1');
         step1.render();
         //激活第二个步骤

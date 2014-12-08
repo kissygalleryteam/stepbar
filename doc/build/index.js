@@ -1,7 +1,7 @@
 /*
 combined files : 
 
-kg/stepbar/2.0.0/index
+kg/stepbar/2.1.0/index
 
 */
 /**
@@ -9,7 +9,7 @@ kg/stepbar/2.0.0/index
  * @author 明河<minghe36@126.com>
  * @module stepbar
  **/
-KISSY.add('kg/stepbar/2.0.0/index',function (S,Node, Base) {
+KISSY.add('kg/stepbar/2.1.0/index',function (S,Node, Base) {
     var EMPTY = '';
     var $ = Node.all;
 
@@ -51,6 +51,7 @@ KISSY.add('kg/stepbar/2.0.0/index',function (S,Node, Base) {
 
             self.set('$steps',$steps);
             $target.addClass(cls.STEPS);
+            $target.addClass('num'+$steps.length);
 
             self._setItemStyle();
             self._setWidth();

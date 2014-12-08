@@ -45,6 +45,7 @@ KISSY.add(function (S,Node, Base) {
 
             self.set('$steps',$steps);
             $target.addClass(cls.STEPS);
+            $target.addClass('num'+$steps.length);
 
             self._setItemStyle();
             self._setWidth();

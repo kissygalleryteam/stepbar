@@ -1,6 +1,6 @@
 ## stepbar
 
-步骤条组件。
+步骤条组件
 
 ## changelog
 

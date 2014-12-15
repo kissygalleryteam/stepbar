@@ -1,13 +1,11 @@
 ## stepbar
 
-* 版本：1.1
-* 教程：[http://gallery.kissyui.com/stepbar/1.1/guide/index.html](http://gallery.kissyui.com/stepbar/1.1/guide/index.html)
-* demo：[http://gallery.kissyui.com/stepbar/1.1/demo/index.html](http://gallery.kissyui.com/stepbar/1.1/demo/index.html)
+步骤条组件。
 
 ## changelog
 
-### V1.1
+### V2.1.0
 
-    [!] 迁移旧代码
+    [!] 增加对kissy1.4.8的适配
 
 

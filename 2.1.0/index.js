@@ -114,7 +114,8 @@ KISSY.add(function (S,Node, Base) {
                 var ret = containerWidth % itemLen;
                 width = Number( (containerWidth - ret) / itemLen);
             }
-            $steps.width(width);
+			for(var i = 0;i<itemLen;i++)
+				$steps[i].width(width);
 
             if (ret) {
               $steps.item(itemLen - 1).width(width + ret);
